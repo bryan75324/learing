@@ -40,6 +40,12 @@ aside {
   right: 24px;
   z-index: 10;
   width: min(320px, calc(100vw - 32px));
+  display: flex;
+  justify-content: flex-end;
+}
+aside details {
+  width: 100%;
+  text-align: right;
 }
 summary {
   display: inline-flex;
@@ -81,6 +87,7 @@ details nav {
   padding: 12px;
   max-height: min(70vh, 560px);
   overflow: auto;
+  text-align: left;
   background: rgba(255, 253, 248, 0.96);
   border: 1px solid var(--line);
   border-radius: 18px;
